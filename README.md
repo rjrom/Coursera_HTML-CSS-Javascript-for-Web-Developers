@@ -7,4 +7,4 @@ This repository contains my solutions to the tasks from Johns Hopkins University
 
 ### Module 5
 - [Assignment description](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment5/Assignment-5.md)
-- [Deployed Website](https://davidschinabistro.netlify.app/)
+- [Check out the Deployed Website](https://davidschinabistro.netlify.app/)
