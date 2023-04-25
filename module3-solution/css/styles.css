@@ -1,0 +1,118 @@
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+    background-color: whitesmoke;
+}
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #ffff;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #7d1913;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+    background-color: #e4af34;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+    transition: all 0.3s ease;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid white;
+    background-color: #7d1913; 
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+    background-color: #fe9797;
+    transition: all 0.3s ease;
+}
+
+/** END HEADER **/
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 3.2em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/** END HOME PAGE **/
